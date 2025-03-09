@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body
+{
+    background: lavenderblush;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wew
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background:lightblue;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.wew .left_side
+{
+    position: relative;
+    background: burlywood;
+    padding: 40px;
+}
+.wew2
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rbga(255,255,255,0.2);
+}
+.wew2 .img
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.wew2 .img img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.wew2 h2
+{
+    color: aliceblue;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.wew2 h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.weww3
+{
+    padding-top: 40px;
+}
+.contact
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.wew3 ul
+{
+    position: relative;
+}
+.wew3 ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.wew3 ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: red;
+}
+.wew3 ul li span
+{
+    font-weight: 300;
+}
+.wew3.educ li
+{
+    margin-bottom: 15px;
+}
+.wew3.educ h5
+{
+    color: red;
+    font-family: sans-serif;
+
+}
+.wew3.educ h4:nth-child(2)
+{
+    font-weight: 500;
+    font-family: sans-serif;
+
+}
+.wew3.educ h4
+{
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+
+
+
+
+.right_side
+{
+    position: relative;
+    padding: 40px;
+}
+.wew4
+{
+    margin-bottom: 50px;
+}
+.wew4:last-child
+{
+    margin-bottom: 0;
+}
+.contact2
+{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.wew6 h5
+{
+    margin-bottom: 15px;
+    color: red;
+}
+.wew6 h4
+{
+    font-weight: 300;
+    font-family: sans-serif;
+}
+.wew8
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.wew8 ul
+{
+    position: relative;
+}
+.wew8 ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+    font-weight: 300;
+}
+.wew8 h5
+{
+    margin-bottom: 15px;
+    color: red;
+}    
